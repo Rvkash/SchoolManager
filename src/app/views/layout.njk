@@ -1,0 +1,33 @@
+
+<html lang="pt-BR">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    {% block head %}
+      <title>Gym Manager</title>
+    {% endblock %}
+   
+    <header>
+      <div class="links">
+        <a href="/teachers">Teachers</a>
+        <a href="/students">Student</a>
+      </div>
+    </header>
+
+    {% block content %}
+    {% endblock %}
+
+      <script src="/scripts.js"></script>
+
+  </body>
+ </html>
+
+   
+
+
