@@ -14,7 +14,9 @@
 ## :book: School Manager
 School Manager é um website com sistema de criação de alunos e professores desenvolvido no bootcamp da Rocketseat
 
-
+<h1 align="center">
+    <img src="img/schoolrefact.png"
+</h1>
 
 
 ## :email: Faq
