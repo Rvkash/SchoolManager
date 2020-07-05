@@ -1,9 +1,21 @@
 {% extends "layout.njk" %}
 
 {% block content %}
-
 <div class="card table-container">
-		<a href="/teachers/create">New</a>
+
+	<div class="header">
+		<a class="button" href="/teachers/create">New</a>
+		<form action="/teachers" method="GET">
+			<input 
+			type="text" 
+			name="filter"
+			placeholder="Filter name"
+			
+			>
+			<button type="submit">Filter</button>
+		</form>
+	</div>
+
 		<table width="100%">
 			<thead>
 				<tr>
