@@ -268,6 +268,44 @@ tbody tr td:last-child a:hover {
   background-color: rgb(204, 103, 90);
 }
 
+/* filters */
+
+.table-container .header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-bottom: 32px;
+
+}
+
+.table-container .header a {
+  margin: 0;
+  width: 120px;
+
+}
+
+.table-container .header form {
+  display: grid;
+  grid-template-columns: 1fr 120px;
+  align-items: center;
+  grid-gap: 8px;
+  box-sizing: border-box; /* deixa o input respeitando o tamanho */
+
+}
+
+.table-container .header form input {
+  border: 1px solid #eee;
+  padding: 4px 8px;
+
+} 
+.table-container .header form button {
+  margin: 0;
+}
+
+
+
+
+
 
 
 
