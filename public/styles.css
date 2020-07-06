@@ -25,6 +25,9 @@ header  {
   box-sizing: border-box;
 }
 
+
+
+
 .links {
   font-size: 22px;
 
@@ -281,6 +284,7 @@ tbody tr td:last-child a:hover {
 .table-container .header a {
   margin: 0;
   width: 120px;
+  
 
 }
 
@@ -300,7 +304,39 @@ tbody tr td:last-child a:hover {
 } 
 .table-container .header form button {
   margin: 0;
+  cursor: pointer;
 }
+
+/* pagination */
+
+.table-container {
+  display: grid;
+  grid-template: 64px 1fr 16px / 1fr;
+}
+
+.table-container .header {
+  margin: 0;
+  align-self: start;
+}
+
+.table-container .pagination {
+  margin: 0;
+  align-self: end;
+  justify-self: center;
+}
+
+.table-container .pagination a,
+.pagination span {
+  color: var(--primary-color);
+  text-decoration: none;
+  margin-right: 16px;
+}
+
+.pagination a:hover {
+  filter: brightness(0.3);
+  border-bottom: 1px solid var(--primary-color)
+}
+
 
 
 
