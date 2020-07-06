@@ -9,7 +9,8 @@
 			<input 
 			type="text" 
 			name="filter"
-			placeholder="Filter name"
+			placeholder="Filter name, education"
+			value={{filter}}
 			
 			>
 			<button type="submit">Filter</button>
@@ -38,7 +39,18 @@
 				{% endfor %}
 			</tbody>
 		</table>
-</div>
+
+	<div class="pagination"
+		data-page={{pagination.page}}
+		data-total={{pagination.total}}
+		data-filter={{filter}}
+	></div>
+
+</div>	
+
+
 
 {% endblock content %}
+
+
 
