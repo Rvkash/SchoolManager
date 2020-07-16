@@ -25,6 +25,7 @@ School Manager é um website com sistema de criação de alunos e professores de
 - Javascript
 - Nunjucks
 - Nodejs 
+- Postgres
 
 ## :memo: Licença
 Lançado em 2020</br>
