@@ -29,7 +29,7 @@ School Manager é um website com sistema de criação de alunos e professores de
 
 ## :memo: Licença
 Lançado em 2020</br>
-Esse projeto está sob a licença MIT. Veja o arquivo <a href="LICENSE">[LICENSE](/LICENSE) para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo <a href="LICENSE">[LICENSE](/LICENSE) para mais detalhes
 
     
 
