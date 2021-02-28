@@ -19,7 +19,7 @@ School Manager é um website com sistema de criação de alunos e professores de
 </h1>
 
 
-## :email: Faq
+## :email: Tecnologias
 - HTML
 - CSS
 - Javascript
